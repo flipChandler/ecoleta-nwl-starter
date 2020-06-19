@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecoleta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">    
     <link rel="stylesheet" type="text/css" href="/styles/main.css">
     <link rel="stylesheet" type="text/css" href="/styles/home.css">
+    <link rel="stylesheet" type="text/css" href="/styles/modal.css">
     <link rel="stylesheet" type="text/css" href="/styles/responsive.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">    
 </head>
 
 <body>
@@ -38,7 +39,23 @@
 
     </div>
 
-
+    <div id="modal">
+        <div class="content">
+            <div class="header">
+                <h1>Pontos de Coleta</h1>
+                <a href="">Fechar</a>
+            </div>
+            <form action="">
+                <label for="search">Cidade</label>
+                <div class="search field">
+                    <input type="text" name="search">
+                    <button>
+                        <img src="/assets/search.svg" alt="Buscar">
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
 
 
 </body>
