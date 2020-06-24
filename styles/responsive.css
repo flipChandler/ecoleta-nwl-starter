@@ -20,6 +20,10 @@
         align-items: center;
     }
 
+    #page-search-results .cards{
+        grid-template-columns: 1fr;
+    }
+
 }
 
 @media(min-width: 1700px){ /*qndo o minimo for 1700*/
