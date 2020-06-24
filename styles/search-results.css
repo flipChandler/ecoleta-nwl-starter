@@ -1,0 +1,29 @@
+#page-search-results {
+    width: 90%;
+    max-width: 1100px; /*NÃO AUMENTA MAIS QUE 1100*/
+    /* alinhamento de caixa (pelo lado de fora da caixa)*/
+    margin: 0 auto;
+}
+
+#page-search-results header {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-search-results header a {
+    color: var(--title-color);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+#page-search-results header a span{
+    background-image: url('../assets/arrow-left.svg');
+    width:20px;
+    height: 24px;
+    display: flex;
+    margin-right: 16px;
+}
+
