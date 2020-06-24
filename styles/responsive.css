@@ -21,7 +21,11 @@
     }
 
     #page-search-results .cards{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* 1 foto por coluna, pois, só tem 1 frame */
+    }
+
+    #page-search-results .cards img {
+        height: 250px;
     }
 
 }
